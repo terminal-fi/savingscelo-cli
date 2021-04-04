@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "SavingsCELO command line tool",
   "license": "MIT",
+  "repository": {"url": "https://github.com/zviadm/savingscelo-cli"},
   "bin": {
     "savingscli": "./dist/cli.js"
   },
