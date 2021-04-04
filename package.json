@@ -1,5 +1,5 @@
 {
-  "name": "@savingscelo/cli",
+  "name": "savingscelo-cli",
   "version": "1.0.0",
   "description": "SavingsCELO command line tool",
   "license": "MIT",
