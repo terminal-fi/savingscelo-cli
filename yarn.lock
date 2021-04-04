@@ -86,7 +86,7 @@
     eth-lib "^0.2.8"
     ethereumjs-util "^5.2.0"
 
-"@celo/wallet-ledger@1.1.0", "@celo/wallet-ledger@^1.1.0":
+"@celo/wallet-ledger@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@celo/wallet-ledger/-/wallet-ledger-1.1.0.tgz#a1d63e79795095222602dc0ec346546db3dbfe3e"
   integrity sha512-lHJkN9DFiONskztlshCZL7A8O0WagXeclLFCm2230utIO2vHMihS+VOsbFeC0IUklzLZCjMniZ5Lw+lPhwV+AA==
@@ -336,7 +336,7 @@
     "@ledgerhq/logs" "^5.48.0"
     node-hid "2.1.1"
 
-"@ledgerhq/hw-transport-node-hid@^5.31.1", "@ledgerhq/hw-transport-node-hid@^5.48.0":
+"@ledgerhq/hw-transport-node-hid@^5.48.0":
   version "5.48.0"
   resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid/-/hw-transport-node-hid-5.48.0.tgz#a2120f29052d8d31e78f1a2300a9159c9d373a28"
   integrity sha512-yC3CIJ9zIpJVs2KJVQDnJLIijLaw54i9X54fjsmkEVyynMh7yxP2KKDzkckF/puGnlPD06HGlgdKhAuNFQJNFA==
@@ -1074,11 +1074,6 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
   dependencies:
     delayed-stream "~1.0.0"
-
-commander@^6.2.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
-  integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
 commander@^7.2.0:
   version "7.2.0"
@@ -3155,17 +3150,14 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, 
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-savingscelo@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/savingscelo/-/savingscelo-2.2.2.tgz#742efe060712ad1d44d497b1e47a47d7b5141a11"
-  integrity sha512-NgQwjZCKwVx34I+96wnHJ0BPpndq9q2T3Q5LPkt2U6oeYty0L3eA+tc1WEcYG3nOMmC8X/PbX2nbZPtq1zQTLg==
+savingscelo@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/savingscelo/-/savingscelo-2.3.1.tgz#9de0836981af1d31343c8003c9b6c381890f0074"
+  integrity sha512-MTSci4sxmgtoNmobKLnRrhFjcI62X1B7XOmYzSRL9Uc2E821o3tlCCADnIpYhcTGz31di7tr2hPXzausbkkD7g==
   dependencies:
     "@celo/connect" "1.1.0"
     "@celo/contractkit" "1.1.0"
-    "@celo/wallet-ledger" "1.1.0"
-    "@ledgerhq/hw-transport-node-hid" "^5.31.1"
     bignumber.js "^9.0.1"
-    commander "^6.2.0"
     node-fetch "2.6.1"
     web3 "^1.3.4"
     web3-utils "^1.3.0"

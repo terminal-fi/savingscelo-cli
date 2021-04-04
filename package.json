@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "SavingsCELO command line tool",
   "license": "MIT",
-  "repository": {"url": "https://github.com/zviadm/savingscelo-cli"},
+  "repository": {
+    "url": "https://github.com/zviadm/savingscelo-cli"
+  },
   "bin": {
-    "savingscli": "./dist/cli.js"
+    "savingscli": "./dist/cli.js",
+    "savingsvg": "./dist/savingsvg-cli.js"
   },
   "scripts": {
     "clean": "rm -rf ./dist",
@@ -19,7 +22,7 @@
     "@ledgerhq/hw-transport-node-hid": "^5.48.0",
     "bignumber.js": "^9.0.1",
     "commander": "^7.2.0",
-    "savingscelo": "^2.2.2",
+    "savingscelo": "^2.3.1",
     "web3": "1.3.4"
   },
   "devDependencies": {
