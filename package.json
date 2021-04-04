@@ -1,0 +1,27 @@
+{
+  "name": "@savingscelo/cli",
+  "version": "1.0.0",
+  "description": "SavingsCELO command line tool",
+  "license": "MIT",
+  "bin": {
+    "savingscli": "./dist/cli.js"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "yarn tsc -b",
+    "prepublishOnly": "yarn clean && yarn build"
+  },
+  "dependencies": {
+    "@celo/connect": "^1.1.0",
+    "@celo/contractkit": "^1.1.0",
+    "@celo/wallet-ledger": "^1.1.0",
+    "@ledgerhq/hw-transport-node-hid": "^5.48.0",
+    "bignumber.js": "^9.0.1",
+    "commander": "^7.2.0",
+    "savingscelo": "^2.2.2",
+    "web3": "1.3.4"
+  },
+  "devDependencies": {
+    "@types/ledgerhq__hw-transport-node-hid": "^4.22.2"
+  }
+}
