@@ -8,7 +8,7 @@ import { toTransactionObject } from "@celo/connect"
 
 import { SavingsKit, SavingsCELOVGroup } from "savingscelo"
 import {abi as savingsVGAbi} from "savingscelo/build/contracts/SavingsCELOVGroup.json"
-import {address as baklavaAddress} from "savingscelo/src/deploy/baklava.SavingsCELOVGroup.addr.json"
+// import {address as baklavaAddress} from "savingscelo/src/deploy/baklava.SavingsCELOVGroup.addr.json"
 
 import { fmtValue, sendTX } from "./cli-utils"
 
@@ -57,9 +57,9 @@ async function initKit() {
 	// case 44787:
 	// 	contractAddr = alfajoresSavingsCELO.address
 	// 	break
-	case 62320:
-		contractAddr = baklavaAddress
-		break
+	// case 62320:
+	// 	contractAddr = baklavaAddress
+	// 	break
 	default:
 		throw new Error(`Unsupport networkId: ${networkId}`)
 	}
