@@ -3644,7 +3644,7 @@ url-to-options@^1.0.1:
   resolved "https://registry.yarnpkg.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k=
 
-usb@^1.6.5, usb@~1.6.5:
+usb@1.6.5, usb@^1.6.5, usb@~1.6.5:
   version "1.6.5"
   resolved "https://registry.yarnpkg.com/usb/-/usb-1.6.5.tgz#482dc18468a6ed7b33d92ef88500630c68da3c7d"
   integrity sha512-gLVrerQce+F+TSkWgzXACV07nOw+uBlv0gT3svsqTWWxNDe3ESQBIhss3qonIDArMvWPJp6z3I4hXEDYTmPlHQ==
