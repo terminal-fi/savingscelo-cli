@@ -336,7 +336,7 @@
     "@ledgerhq/logs" "^5.48.0"
     node-hid "2.1.1"
 
-"@ledgerhq/hw-transport-node-hid@^5.48.0":
+"@ledgerhq/hw-transport-node-hid@5.48.0":
   version "5.48.0"
   resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-node-hid/-/hw-transport-node-hid-5.48.0.tgz#a2120f29052d8d31e78f1a2300a9159c9d373a28"
   integrity sha512-yC3CIJ9zIpJVs2KJVQDnJLIijLaw54i9X54fjsmkEVyynMh7yxP2KKDzkckF/puGnlPD06HGlgdKhAuNFQJNFA==
@@ -3644,7 +3644,7 @@ url-to-options@^1.0.1:
   resolved "https://registry.yarnpkg.com/url-to-options/-/url-to-options-1.0.1.tgz#1505a03a289a48cbd7a434efbaeec5055f5633a9"
   integrity sha1-FQWgOiiaSMvXpDTvuu7FBV9WM6k=
 
-usb@^1.6.5:
+usb@^1.6.5, usb@~1.6.5:
   version "1.6.5"
   resolved "https://registry.yarnpkg.com/usb/-/usb-1.6.5.tgz#482dc18468a6ed7b33d92ef88500630c68da3c7d"
   integrity sha512-gLVrerQce+F+TSkWgzXACV07nOw+uBlv0gT3svsqTWWxNDe3ESQBIhss3qonIDArMvWPJp6z3I4hXEDYTmPlHQ==

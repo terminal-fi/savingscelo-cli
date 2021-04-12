@@ -25,6 +25,9 @@
     "savingscelo": "^3.0.0",
     "web3": "1.3.4"
   },
+  "resolutions": {
+    "usb": "~1.6.5"
+  },
   "devDependencies": {
     "@types/ledgerhq__hw-transport-node-hid": "^4.22.2"
   }
