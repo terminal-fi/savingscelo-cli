@@ -1,6 +1,6 @@
 {
   "name": "savingscelo-cli",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "SavingsCELO command line tool",
   "license": "MIT",
   "repository": {
@@ -22,7 +22,7 @@
     "@ledgerhq/hw-transport-node-hid": "^5.48.0",
     "bignumber.js": "^9.0.1",
     "commander": "^7.2.0",
-    "savingscelo": "^2.5.0",
+    "savingscelo": "^3.0.0",
     "web3": "1.3.4"
   },
   "devDependencies": {

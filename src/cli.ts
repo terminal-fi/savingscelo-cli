@@ -11,6 +11,7 @@ import {
 	SavingsKit, newVoterV1,
 	SavingsCELOAddressAlfajores,
 	SavingsCELOAddressBaklava,
+	SavingsCELOAddressMainnet,
 } from "savingscelo"
 
 import { fmtValue, sendTX } from "./cli-utils"
@@ -61,6 +62,9 @@ async function initKit() {
 		break
 	case 62320:
 		contractAddr = SavingsCELOAddressBaklava
+		break
+	case 42220:
+		contractAddr = SavingsCELOAddressMainnet
 		break
 	default:
 		throw new Error(`Unsupport networkId: ${networkId}`)
