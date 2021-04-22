@@ -215,6 +215,15 @@ program
 		console.info(`SavingsCELO _voter:`, voterAddr)
 	})
 
+program
+	.command("rate")
+	.description("Display current CELO / sCELO conversion rate")
+	.action(async () => {
+		const {kit, savingsKit} = await initKit()
+		const rate = await savingsKit.celoToSavings(1e18)
+		console.info(`1 CELO = ${rate.shiftedBy(-18).toString(10)} sCELO`)
+	})
+
 async function main() {
 	await program.parseAsync(process.argv)
 }
