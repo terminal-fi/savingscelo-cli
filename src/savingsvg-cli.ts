@@ -6,9 +6,9 @@ import { AddressValidation, newLedgerWalletWithSetup } from "@celo/wallet-ledger
 import TransportNodeHid from "@ledgerhq/hw-transport-node-hid"
 import { toTransactionObject } from "@celo/connect"
 
-import { SavingsKit, SavingsCELOVGroup } from "savingscelo"
-import {abi as savingsVGAbi} from "savingscelo/build/contracts/SavingsCELOVGroup.json"
-// import {address as baklavaAddress} from "savingscelo/src/deploy/baklava.SavingsCELOVGroup.addr.json"
+import { SavingsKit, SavingsCELOVGroup } from "@terminal-fi/savingscelo"
+import {abi as savingsVGAbi} from "@terminal-fi/savingscelo/build/contracts/SavingsCELOVGroup.json"
+// import {address as baklavaAddress} from "@terminal-fi/savingscelo/src/deploy/baklava.SavingsCELOVGroup.addr.json"
 
 import { fmtValue, sendTX } from "./cli-utils"
 

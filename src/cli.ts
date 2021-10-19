@@ -12,7 +12,7 @@ import {
 	SavingsCELOAddressAlfajores,
 	SavingsCELOAddressBaklava,
 	SavingsCELOAddressMainnet,
-} from "savingscelo"
+} from "@terminal-fi/savingscelo"
 
 import { fmtValue, sendTX } from "./cli-utils"
 

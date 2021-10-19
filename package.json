@@ -1,6 +1,6 @@
 {
   "name": "@terminal-fi/savingscelo-cli",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "description": "SavingsCELO command line tool",
   "license": "MIT",
   "repository": {
