@@ -1,3 +1,3 @@
 # SavingsCELO command line tools
 
-See: https://github.com/zviadm/savingscelo project for more information.
+See: https://github.com/terminal-fi/savingscelo project for more information.
